@@ -1,0 +1,146 @@
+@article{doi:10.1177/0278364914551008,
+author = {Thomas Whelan and Michael Kaess and Hordur Johannsson and Maurice Fallon and John J. Leonard and John McDonald},
+title ={Real-time large-scale dense RGB-D SLAM with volumetric fusion},
+
+journal = {The International Journal of Robotics Research},
+volume = {34},
+number = {4-5},
+pages = {598-626},
+year = {2015},
+doi = {10.1177/0278364914551008},
+keywords = {type:Journal Article,Volumetric fusion,camera pose estimation,dense methods,large scale,real time,RGB-D,SLAM,GPU},
+URL = {https://doi.org/10.1177/0278364914551008},
+eprint = {https://doi.org/10.1177/0278364914551008},
+abstract = { We present a new simultaneous localization and mapping (SLAM) system capable of producing high-quality globally consistent surface reconstructions over hundreds of meters in real time with only a low-cost commodity RGB-D sensor. By using a fused volumetric surface reconstruction we achieve a much higher quality map over what would be achieved using raw RGB-D point clouds. In this paper we highlight three key techniques associated with applying a volumetric fusion-based mapping system to the SLAM problem in real time. First, the use of a GPU-based 3D cyclical buffer trick to efficiently extend dense every-frame volumetric fusion of depth maps to function over an unbounded spatial region. Second, overcoming camera pose estimation limitations in a wide variety of environments by combining both dense geometric and photometric camera pose constraints. Third, efficiently updating the dense map according to place recognition and subsequent loop closure constraints by the use of an ‘as-rigid-as-possible’ space deformation. We present results on a wide variety of aspects of the system and show through evaluation on de facto standard RGB-D benchmarks that our system performs strongly in terms of trajectory estimation, map quality and computational performance in comparison to other state-of-the-art systems. }
+}
+
+@InProceedings{10.1007/978-3-319-46484-8_30,
+author={K{\"a}hler, Olaf
+and Prisacariu, Victor A.
+and Murray, David W.},
+editor={Leibe, Bastian
+and Matas, Jiri
+and Sebe, Nicu
+and Welling, Max},
+title= {Real-Time Large-Scale Dense 3D Reconstruction with Loop Closure},
+booktitle= {Computer Vision -- ECCV 2016},
+year= {2016},
+publisher= {Springer International Publishing},
+address={Cham},
+pages={500--516},
+abstract={In the highly active research field of dense 3D reconstruction and modelling, loop closure is still a largely unsolved problem. While a number of previous works show how to accumulate keyframes, globally optimize their pose on closure, and compute a dense 3D model as a post-processing step, in this paper we propose an online framework which delivers a consistent 3D model to the user in real time. This is achieved by splitting the scene into submaps, and adjusting the poses of the submaps as and when required. We present a novel technique for accumulating relative pose constraints between the submaps at very little computational cost, and demonstrate how to maintain a lightweight, scalable global optimization of submap poses. In contrast to previous works, the number of submaps grows with the observed 3D scene surface, rather than with time. In addition to loop closure, the paper incorporates relocalization and provides a novel way of assessing tracking quality.},
+isbn={978-3-319-46484-8},
+keywords={type:Conference Paper,Loop Closure,Depth Image,Relative Constraint,Pairwise Constraint,Camera Tracking}
+}
+
+@article{doi:10.1177/0278364911434148,
+author = {Peter Henry and Michael Krainin and Evan Herbst and Xiaofeng Ren and Dieter Fox},
+title ={RGB-D mapping: Using Kinect-style depth cameras for dense 3D modeling of indoor environments},
+journal = {The International Journal of Robotics Research},
+volume = {31},
+number = {5},
+pages = {647-663},
+year = {2012},
+doi = {10.1177/0278364911434148},
+URL = {https://doi.org/10.1177/0278364911434148},
+eprint = {https://doi.org/10.1177/0278364911434148},
+keywords = {type:Journal Article,SLAM,localization,mapping,range sensing,vision,RGB-D,kinect},
+abstract = { RGB-D cameras (such as the Microsoft Kinect) are novel sensing systems that capture RGB images along with per-pixel depth information. In this paper we investigate how such cameras can be used for building dense 3D maps of indoor environments. Such maps have applications in robot navigation, manipulation, semantic mapping, and telepresence. We present RGB-D Mapping, a full 3D mapping system that utilizes a novel joint optimization algorithm combining visual features and shape-based alignment. Visual and depth information are also combined for view-based loop-closure detection, followed by pose optimization to achieve globally consistent maps. We evaluate RGB-D Mapping on two large indoor environments, and show that it effectively combines the visual and shape information available from RGB-D cameras. }
+}
+
+
+@ARTICLE{8648337,
+  author={Liu, Yangdong and Gao, Wei and Hu, Zhanyi},
+  journal={IEEE Access},
+  title={3D Scanning of High Dynamic Scenes Using an RGB-D Sensor and an IMU on a Mobile Device},
+  year={2019},
+  volume={7},
+  pages={24057-24070},
+  keywords={type:Conference Paper,Three-dimensional displays,Mobile handsets,Cameras,Image segmentation,Image reconstruction,Computational modeling,Robot sensing systems,Dynamic scenes,background segmentation,RGB-D,mobile device},
+  doi={10.1109/ACCESS.2019.2900740}}
+
+
+@article{e4e2bccb29e13e05e00c66adb317ea9f3b33ba48,
+title = {Large-scale, real-time 3D scene reconstruction on a mobile device},
+year = {2017},
+url = {https://doi.org/10.1007/s10514-017-9624-2},
+abstract = {S2 TL;DR: This work explores the problem of large-scale, real-time 3D reconstruction on a mobile devices of this type and describes an on-device post-processing method for fusing datasets from multiple, independent trials in order to improve the quality and coverage of the reconstruction.},
+author = {Ivan Dryanovski and Matthew Klingensmith and S. Srinivasa and Jizhong Xiao},
+journal = {Autonomous Robots},
+volume = {41},
+pages = {1423 - 1445},
+doi = {10.1007/s10514-017-9624-2},
+keywords = {type:journal article,3D reconstruction,Mobile technology,SLAM,Computer vision,Mapping,Pose estimation},
+}
+
+@Article{s22031296,
+AUTHOR = {Vizzo, Ignacio and Guadagnino, Tiziano and Behley, Jens and Stachniss, Cyrill},
+TITLE = {VDBFusion: Flexible and Efficient TSDF Integration of Range Sensor Data},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {1296},
+URL = {https://www.mdpi.com/1424-8220/22/3/1296},
+PubMedID = {35162040},
+ISSN = {1424-8220},
+keywords = {type:journal article,3D mapping, 3D surface reconstruction, volumetric integration, TSDF},
+ABSTRACT = {Mapping is a crucial task in robotics and a fundamental building block of most mobile systems deployed in the real world. Robots use different environment representations depending on their task and sensor setup. This paper showcases a practical approach to volumetric surface reconstruction based on truncated signed distance functions, also called TSDFs. We revisit the basics of this mapping technique and offer an approach for building effective and efficient real-world mapping systems. In contrast to most state-of-the-art SLAM and mapping approaches, we are making no assumptions on the size of the environment nor the employed range sensor. Unlike most other approaches, we introduce an effective system that works in multiple domains using different sensors. To achieve this, we build upon the Academy-Award-winning OpenVDB library used in filmmaking to realize an effective 3D map representation. Based on this, our proposed system is flexible and highly effective and, in the end, capable of integrating point clouds from a 64-beam LiDAR sensor at 20 frames per second using a single-core CPU. Along with this publication comes an easy-to-use C++ and Python library to quickly and efficiently solve volumetric mapping problems with TSDFs.},
+DOI = {10.3390/s22031296},
+}
+
+@article{10.1145/2508363.2508374,
+author = {Nie\ss{}ner, Matthias and Zollh\"{o}fer, Michael and Izadi, Shahram and Stamminger, Marc},
+title = {Real-time 3D reconstruction at scale using voxel hashing},
+year = {2013},
+issue_date = {November 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {32},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/2508363.2508374},
+doi = {10.1145/2508363.2508374},
+abstract = {Online 3D reconstruction is gaining newfound interest due to the availability of real-time consumer depth cameras. The basic problem takes live overlapping depth maps as input and incrementally fuses these into a single 3D model. This is challenging particularly when real-time performance is desired without trading quality or scale. We contribute an online system for large and fine scale volumetric reconstruction based on a memory and speed efficient data structure. Our system uses a simple spatial hashing scheme that compresses space, and allows for real-time access and updates of implicit surface data, without the need for a regular or hierarchical grid data structure. Surface data is only stored densely where measurements are observed. Additionally, data can be streamed efficiently in or out of the hash table, allowing for further scalability during sensor motion. We show interactive reconstructions of a variety of scenes, reconstructing both fine-grained details and large scale environments. We illustrate how all parts of our pipeline from depth map pre-processing, camera pose estimation, depth map fusion, and surface rendering are performed at real-time rates on commodity graphics hardware. We conclude with a comparison to current state-of-the-art online systems, illustrating improved performance and reconstruction quality.},
+journal = {ACM Trans. Graph.},
+month = {nov},
+articleno = {169},
+numpages = {11},
+keywords = {type:conference paper,scalable, real-time reconstruction, data structure, GPU}
+}
+
+@INPROCEEDINGS{6162880,
+  author={Newcombe, Richard A. and Izadi, Shahram and Hilliges, Otmar and Molyneaux, David and Kim, David and Davison, Andrew J. and Kohi, Pushmeet and Shotton, Jamie and Hodges, Steve and Fitzgibbon, Andrew},
+  booktitle={2011 10th IEEE International Symposium on Mixed and Augmented Reality},
+  title={KinectFusion: Real-time dense surface mapping and tracking},
+  year={2011},
+  pages={127-136},
+  abstract={We present a system for accurate real-time mapping of complex and arbitrary indoor scenes in variable lighting conditions, using only a moving low-cost depth camera and commodity graphics hardware. We fuse all of the depth data streamed from a Kinect sensor into a single global implicit surface model of the observed scene in real-time. The current sensor pose is simultaneously obtained by tracking the live depth frame relative to the global model using a coarse-to-fine iterative closest point (ICP) algorithm, which uses all of the observed depth data available. We demonstrate the advantages of tracking against the growing full surface model compared with frame-to-frame tracking, obtaining tracking and mapping results in constant time within room sized scenes with limited drift and high accuracy. We also show both qualitative and quantitative results relating to various aspects of our tracking and mapping system. Modelling of natural scenes, in real-time with only commodity sensor and GPU hardware, promises an exciting step forward in augmented reality (AR), in particular, it allows dense surfaces to be reconstructed in real-time, with a level of detail and robustness beyond any solution yet presented using passive computer vision.},
+  keywords={type:Conference Paper,Surface reconstruction,Cameras,Image reconstruction,Real time systems,Simultaneous localization and mapping,Iterative closest point algorithm,Three dimensional displays,Real-Time,Dense Reconstruction,Tracking,GPU,SLAM,Depth Cameras,Volumetric Representation,AR},
+  doi={10.1109/ISMAR.2011.6092378},
+  month={Oct},}
+
+@INPROCEEDINGS{8202315,
+  author={Oleynikova, Helen and Taylor, Zachary and Fehr, Marius and Siegwart, Roland and Nieto, Juan},
+  booktitle={2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title={Voxblox: Incremental 3D Euclidean Signed Distance Fields for on-board MAV planning},
+  year={2017},
+  pages={1366-1373},
+  keywords={type:Research Article,Planning,Three-dimensional displays,Robot sensing systems,Real-time systems,Buildings,Surface reconstruction},
+  doi={10.1109/IROS.2017.8202315}}
+
+@article{10.1371/journal.pone.0287155,
+    doi = {10.1371/journal.pone.0287155},
+    author = {Fadzli, Fazliaty Edora AND Ismail, Ajune Wanis AND Abd Karim Ishigaki, Shafina},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {A systematic literature review: Real-time 3D reconstruction method for telepresence system},
+    year = {2023},
+    month = {11},
+    volume = {18},
+    url = {https://doi.org/10.1371/journal.pone.0287155},
+    pages = {1-37},
+    keywords = {type:Research Article,Real-time 3D reconstruction,Telepresence technology,Depth sensors,Virtual representation,Remote collaboration,Immersive experience,RGB-D,GPU},
+    abstract = {Real-time three-dimensional (3D) reconstruction of real-world environments has many significant applications in various fields, including telepresence technology. When depth sensors, such as those from Microsoft’s Kinect series, are introduced simultaneously and become widely available, a new generation of telepresence systems can be developed by combining a real-time 3D reconstruction method with these new technologies. This combination enables users to engage with a remote person while remaining in their local area, as well as control remote devices while viewing their 3D virtual representation. There are numerous applications in which having a telepresence experience could be beneficial, including remote collaboration and entertainment, as well as education, advertising, and rehabilitation. The purpose of this systematic literature review is to analyze the recent advances in 3D reconstruction methods for telepresence systems and the significant related work in this field. Next, we determine the input data and the technological device employed to acquire the input data, which will be utilized in the 3D reconstruction process. The methods of 3D reconstruction implemented in the telepresence system as well as the evaluation of the system, have been extracted and assessed from the included studies. Through the analysis and summarization of many dimensions, we discussed the input data used for the 3D reconstruction method, the real-time 3D reconstruction methods implemented in the telepresence system, and how to evaluate the system. We conclude that real-time 3D reconstruction methods for telepresence systems have progressively improved over the years in conjunction with the advancement of machines and devices such as Red Green Blue-Depth (RGB-D) cameras and Graphics Processing Unit (GPU).},
+    number = {11},
+}
